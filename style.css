@@ -173,3 +173,37 @@ input:focus {
 .form-actions {
   display: flex;
 }
+
+.active-form {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.form .form-actions .icons {
+  display: flex;
+}
+
+.form .form-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.small-icon {
+  color: black;
+  font-size: 1.1rem;
+}
